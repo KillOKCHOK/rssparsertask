@@ -1,0 +1,2 @@
+
+../node_modules/.bin/env-cmd -f ../env/.env.development node rssparser.js
