@@ -3,8 +3,7 @@ CREATE SEQUENCE IF NOT EXISTS public.posts_id_seq
     START 1
     MINVALUE 1
     MAXVALUE 2147483647
-    CACHE 1
-    OWNED BY posts.id;
+    CACHE 1;
 
 ALTER SEQUENCE public.posts_id_seq
     OWNER TO postgres;
@@ -15,8 +14,7 @@ CREATE SEQUENCE IF NOT EXISTS public.roles_id_seq
     START 1
     MINVALUE 1
     MAXVALUE 2147483647
-    CACHE 1
-    OWNED BY roles.id;
+    CACHE 1;
 
 ALTER SEQUENCE public.roles_id_seq
     OWNER TO postgres;
@@ -27,8 +25,7 @@ CREATE SEQUENCE IF NOT EXISTS public.users_id_seq
     START 1
     MINVALUE 1
     MAXVALUE 2147483647
-    CACHE 1
-    OWNED BY users.id;
+    CACHE 1;
 
 ALTER SEQUENCE public.users_id_seq
     OWNER TO postgres;
@@ -39,8 +36,7 @@ CREATE SEQUENCE IF NOT EXISTS public.user_role_id_seq
     START 1
     MINVALUE 1
     MAXVALUE 2147483647
-    CACHE 1
-    OWNED BY user_role.id;
+    CACHE 1;
 
 ALTER SEQUENCE public.user_role_id_seq
     OWNER TO postgres;
